@@ -59,7 +59,7 @@
               <label>
                 Resultado: <input type="number" id="resultado" disabled>
               </label>
-              <button id="calcular">Calcular \(F_{grav}\)</button>
+              <button onclick="calculo()" id="calcular">Calcular \(F_{grav}\)</button>
             </div>
           </div>
         </div>
@@ -78,8 +78,8 @@
         </p>
         <div id="galeria">
           <img src="http://fegemo.github.io/cefet-web/images/osiris/modelo-artistico-da-sonda.webp" id="slide">
-          <button id="anterior" class="navegar">Anterior</button>
-          <button id="proximo" class="navegar">Próximo</button>
+          <button onclick="anterior()"id="anterior" class="navegar">Anterior</button>
+          <button onclick="proximo()"id="proximo" class="navegar">Próximo</button>
         </div>
       </article>
 
@@ -163,8 +163,9 @@
     <!-- navegacao: código que faz a "navegação em abas" da página -->
     <script src="navegacao.js"></script>
     <!-- inclua os arquivos dos exercícios aqui: -->
-
-
+    <script src="exercicio1.js"></script>
+    <script src="exercicio2.js"></script>
+    <script src="exercicio3.js"></script>
 
   </body>
 </html>
